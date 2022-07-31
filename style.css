@@ -1,0 +1,484 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* style */
+
+body {
+    font-family:Helvetica, arial,sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.header{
+    width: 100%;
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav{
+    width: max-content;
+    margin-right: 50px;
+    float: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.nav a:hover{
+    color: grey;
+    background-color: rgb(255, 255, 255);
+}
+
+/* start home */
+.home{
+    height: 800px;
+    background-image: url(asset/IMG/3.jpeg);
+    background-size: cover;
+}
+
+.home .teks{
+    width: max-content;
+    color:white;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.home .teks h1{
+    font-size: 25px;
+}
+
+.home .teks h2{
+    font-size: 40px;
+    margin-bottom: 50px
+}
+
+.home .teks h3{
+    font-size: 20px;
+}
+
+.fa-play{
+    margin-left: 5px;
+    color: rgb(240, 240, 240);
+    opacity: .9;
+}
+
+/* end home */
+
+/* start about */
+.about{
+    height:800px;
+    background-image: url(asset/IMG/5.jpeg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.border{
+    height: 450px;
+    width:max-content;
+    border-top: 5px solid white;
+    margin-top: 150px ;
+    margin-left: 70px;
+    float: left;
+}
+
+.border .cover{
+    height:350px ;
+    width: 300px;
+    margin: auto;
+    margin-top:10px ;
+    background-image: url(asset/IMG/1.jpeg);
+    background-size: cover;
+    background-position: -30px 0;
+    border: 1px solid white;
+    position: relative;
+}
+
+.about .teks{
+    width: 250px;
+    margin-top: 200px;
+    margin-left: 300px;
+    float: left;
+}
+
+.about p{
+    font-size: 15px;
+    text-align:left;
+    color: white;
+}
+
+.border2{
+    width:max-content;
+    float: left;
+    margin-top: 500px;
+    margin-left: -75px;
+    border-bottom: 5px solid white;
+}
+.border2 h1{
+    color: white;
+    font-size: 20px;
+}
+.border2 h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+/* end about */
+
+/* start exp */
+.exp{
+    height: 800px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.exp .satu{
+    height: 800px;
+    width: 50%;
+    float: left;
+    padding-right: 8px;
+    background-image: url(asset/IMG/4.jpeg);
+    background-size: cover;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+
+.exp .teks1{
+    width: 250px;
+    color: white;
+    margin-top: 350px;
+    margin-left: 80px;
+}
+
+.teks1 h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.teks1 h2{
+    font-size: 14px;
+    text-justify: auto;
+}
+
+
+.exp .dua{
+    width: 50%;
+    height: 800px;
+    color: white;
+    right: 0;
+    position: absolute;
+    background-image: url(asset/IMG/3.jpeg);
+    background-size: cover;
+    padding-right: 5px;
+}
+
+.exp .teks2{
+    width: 250px;
+    color: white;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+
+.teks2 h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+
+.teks2 h2{
+    font-size: 14px;
+    text-justify: auto;
+}
+
+.exp .tiga{
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    top: 450px;
+    left: 37%;
+    background-image: url(asset/IMG/2.jpeg);
+    background-size: cover;
+   
+}
+
+.teks3{
+    width: 250px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.teks3 h1{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.teks3 h2{
+    font-size: 14px;
+    text-justify: auto;
+
+}
+
+/* end exp */
+
+/* start contact */
+.contact{
+    height: 800px;
+    background-image: url(asset/IMG/6.jpeg);
+}
+
+.join{
+    width: 300px;
+    margin-top: 500px;
+    margin-left: 30px;
+    position: absolute;
+    color: white;
+}
+
+.join h1{
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+.sosmed{
+    text-align: center;
+    line-height: 650px;
+}
+
+.sosmed ul li{
+
+    display: inline-block;
+}
+
+.sosmed ul li a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.fa-facebook{
+    font-size: 35px;
+}
+
+.fa-twitter{
+    font-size: 35px;
+}
+
+.fa-instagram{
+    font-size: 35px;
+}
+
+/* end contact */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
