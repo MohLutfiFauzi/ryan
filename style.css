@@ -175,7 +175,7 @@ body {
 /* start home */
 .home {
   height: 800px;
-  background-image: url("https://mohlutfifauzi.github.io/ryan/Asset/IMG/3.jpeg");
+  background-image: url("Asset/IMG/3.jpeg");
   background-size: cover;
 }
 
@@ -210,7 +210,7 @@ body {
 /* start about */
 .about {
   height: 800px;
-  background-image: url("https://mohlutfifauzi.github.io/ryan/Asset/IMG/5.jpeg");
+  background-image: url("Asset/IMG/5.jpeg");
   background-size: cover;
   box-sizing: border-box;
 }
@@ -229,7 +229,7 @@ body {
   width: 300px;
   margin: auto;
   margin-top: 10px;
-  background-image: url("https://mohlutfifauzi.github.io/ryan/Asset/IMG/1.jpeg");
+  background-image: url("Asset/IMG/1.jpeg");
   background-size: cover;
   background-position: -30px 0;
   border: 1px solid white;
@@ -278,7 +278,7 @@ body {
   width: 50%;
   float: left;
   padding-right: 8px;
-  background-image: url("https://mohlutfifauzi.github.io/ryan/Asset/IMG/4.jpeg");
+  background-image: url("Asset/IMG/4.jpeg");
   background-size: cover;
   background-position: 0 0px;
   background-repeat: no-repeat;
@@ -308,7 +308,7 @@ body {
   color: white;
   right: 0;
   position: absolute;
-  background-image: url("https://mohlutfifauzi.github.io/ryan/Asset/IMG/3.jpeg");
+  background-image: url("Asset/IMG/3.jpeg");
   background-size: cover;
   padding-right: 5px;
 }
@@ -337,7 +337,7 @@ body {
   position: absolute;
   top: 450px;
   left: 37%;
-  background-image: url("https://mohlutfifauzi.github.io/ryan/Asset/IMG/2.jpeg");
+  background-image: url("Asset/IMG/2.jpeg");
   background-size: cover;
 }
 
@@ -364,7 +364,7 @@ body {
 /* start contact */
 .contact {
   height: 800px;
-  background-image: url("Asset/IMG/6.jpeg");
+  background-image: url("Asset/IMG/6.jpg");
 }
 
 .join {
